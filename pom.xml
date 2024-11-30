@@ -40,6 +40,12 @@
 				 <configuration>
                              <testFailureIgnore>true</testFailureIgnore>
                            </configuration>
+				  <repositories>
+    <repository>
+      <id>forplay-legacy</id>
+      <url>http://forplay.googlecode.com/svn/mavenrepo</url>
+    </repository>
+  </repositories>
 				<executions>
 					<execution>
 						<phase>package</phase>
